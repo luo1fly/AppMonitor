@@ -1,0 +1,77 @@
+{
+    "bnk": {
+        "password": "",
+        "user": "", 
+        "requests": {
+            "ClientID": 101, 
+            "CustomerID": 209
+        }, 
+        "method": "QueryDXPointsBacicInfo", 
+        "ports": "BasicHttpBinding_IDXPointsWCF", 
+        "url": "https://bjsvc.mictester.com/bnk/v4.2/DXPoints/DXPointsWCF.svc?wsdl"
+    },
+    "cic": {
+        "password": "",
+        "user": "",
+        "requests": {
+            "CustomerID": 209
+        },
+        "method": "GetCustomer",
+        "ports": "BasicHttpBinding_ICICService",
+        "url": "https://bjsvc.mictester.com/cic/v3.0/Services/CICService.svc?wsdl"
+    },
+    "csts": {
+        "password": "",
+        "user": "",
+        "requests": "150709101013101224",
+        "method": "GetOrderDetail",
+        "ports": "TicketServices",
+        "url": "https://bjsvc.mictester.com/tkt/v4.0/WCF/TicketServices.svc?wsdl"
+    },
+    "mss": {
+        "password": "",
+        "user": "",
+        "requests": "E0EC909C-1666-4DC9-A951-1B9727B24ADE",
+        "method": "SelectMailStatus",
+        "ports": "BasicHttpBinding_ISendMailService",
+        "url": "https://bjsvc.mictester.com/mss/v4.0/Interface/SendMailService.svc?wsdl"
+    },
+    "oms": {
+        "password": "",
+        "user": "",
+        "requests": {
+            "LoadOrderLines": false,
+            "OrderNumber": "150709101013101224"
+        },
+        "method": "GetOrder",
+        "ports": "BasicHttpBinding_IOrderService",
+        "url": "https://bjsvc.mictester.com/OMS/v4.0/OrderService.svc?wsdl"
+    },
+    "pro": {
+        "password": "",
+        "user": "",
+        "requests": "590581632",
+        "method": "GetCouponDetail",
+        "ports": "BasicHttpBinding_ICouponService",
+        "url": "https://bjsvc.mictester.com/Pro/CouponService.svc?wsdl"
+    },
+    "sfc": {
+        "password": "",
+        "user": "",
+        "requests": {},
+        "method": "GetShippingFee",
+        "ports": "BasicHttpBinding_ICalculationService",
+        "url": "https://bjsvc.mictester.com/sfc/v4.0/Calculation/CalculationService.svc?wsdl"
+    },
+    "ups": {
+        "password": "",
+        "user": "",
+        "requests": {
+            "ClientID": 101,
+            "OrderNumber": "150709101013101224"
+        },
+        "method": "QueryTransactions",
+        "ports": "BasicHttpBinding_PaymentService",
+        "url": "https://bjsvc.mictester.com/UPS/v4.0/PaymentService.svc?wsdl"
+    }
+}
